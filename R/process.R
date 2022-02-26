@@ -10,18 +10,13 @@
 ######################################################################
 run_survey <- function(){
 # Load libraries ----------------------------------------------------------
-# library(jsonlite) ## version 1.7.3
-# # check that the version of jsonlite installed has the required capability
-# if(packageVersion("jsonlite") < "1.7.3") {
-#   stop("Please install the most recent version of the jsonlite package for this code to run correctly")
-# }
-#library(tidyverse)
-# library(dplyr)
+library(jsonlite) ## version 1.7.3
+library(dplyr)
 library(magrittr)
-# library(tidyr)
-# library(stringr)
-# library(shiny)
-# library(shinysurveys)
+library(tidyr)
+library(stringr)
+library(shiny)
+library(shinysurveys)
 
 # Set WD to source file location  -------------------------------------------------------
 #setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
