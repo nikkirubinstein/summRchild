@@ -10,7 +10,6 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Imports:
-  ellipsis (>= 0.3.2),
   dplyr (>= 1.0.8),
   magrittr (>= 2.0.1),
   stringr (>= 1.4.0),
